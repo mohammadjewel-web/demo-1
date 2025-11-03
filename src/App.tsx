@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CategoryUniverse from './components/CategoryUniverse';
 import ProductGrid from './components/ProductGrid';
+import ProductGrid2 from './components/ProductGrid2';
 import FlashSale from './components/FlashSale';
 import AIRecommendations from './components/AIRecommendations';
 import ProductShowcase from './components/ProductShowcase';
@@ -37,6 +38,7 @@ function App() {
       <CategoryUniverse theme={theme} />
       <FlashSale theme={theme} />
       <ProductGrid theme={theme} />
+      <ProductGrid2 theme={theme} />
       <AIRecommendations theme={theme} />
       <ProductShowcase theme={theme} />
     </div>
